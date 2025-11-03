@@ -29,9 +29,9 @@ jobs:
 
       - name: SonarCloud Scan
         env:
-          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+          SONAR_TOKEN: d09abf2826a531767f7c46453a8336f2620cc28a
           SONAR_ORG: ${{ secrets.SONAR_ORG }}
-          SONAR_PROJECT_KEY: ${{ secrets.SONAR_PROJECT_KEY }}
+          SONAR_PROJECT_KEY: maissadridi
         run: |
           mvn -B -q -DskipTests=false             sonar:sonar             -Dsonar.login=${SONAR_TOKEN}
 
