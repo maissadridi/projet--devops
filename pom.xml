@@ -10,7 +10,7 @@
   <version>1.0.0</version>
   <name>java-ci-sonar-sbom-demo</name>
   <description>Java Maven project with GitHub Actions, SonarCloud, CycloneDX SBOM, Javadoc, and JAR</description>
-  <url>https://github.com/your-user/your-repo</url>
+  <url>https://github.com/maissadridi/projet--devops</url>
 
   <properties>
     <maven.compiler.source>17</maven.compiler.source>
@@ -19,8 +19,8 @@
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
     <!-- SonarCloud (edit to your actual org and project key) -->
-    <sonar.organization>${env.SONAR_ORG}</sonar.organization>
-    <sonar.projectKey>${env.SONAR_PROJECT_KEY}</sonar.projectKey>
+    <sonar.organization>Maissa Dridi</sonar.organization>
+    <sonar.projectKey>maissadridi</sonar.projectKey>
     <sonar.host.url>https://sonarcloud.io</sonar.host.url>
   </properties>
 
