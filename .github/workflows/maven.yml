@@ -33,7 +33,7 @@ jobs:
           SONAR_ORG: ${{ secrets.SONAR_ORG }}
           SONAR_PROJECT_KEY: maissadridi
         run: |
-          mvn -B -q -DskipTests=false             sonar:sonar             -Dsonar.login=${SONAR_TOKEN}
+          mvn -B -q -DskipTests=false             sonar:sonar             -Dsonar.login=d09abf2826a531767f7c46453a8336f2620cc28a
 
       - name: Archive build artifacts
         uses: actions/upload-artifact@v4
